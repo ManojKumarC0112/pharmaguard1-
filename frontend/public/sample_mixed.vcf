@@ -1,0 +1,9 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=ALLELE,Number=1,Type=String,Description="Star allele designation">
+##reference=GRCh38/hg38
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr10	94775213	rs12248560	C	T	100	PASS	GENE=CYP2C19;ALLELE=*17
+chr22	42126640	rs16947	C	T	100	PASS	GENE=CYP2D6;ALLELE=*2
+chr10	94938658	rs1799853	C	T	100	PASS	GENE=CYP2C9;ALLELE=*2
